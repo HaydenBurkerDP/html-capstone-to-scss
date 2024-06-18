@@ -1,0 +1,56 @@
+.elements-container {
+  font-family: system-ui;
+  padding: 100px 20%;
+}
+.elements-container a {
+  color: black;
+}
+.elements-container h1 {
+  font-size: 100px;
+  font-weight: 100;
+}
+.elements-container h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.elements-container h3 {
+  font-size: 40px;
+  font-weight: 100;
+}
+.elements-container h4 {
+  font-size: 32px;
+  font-weight: 100;
+}
+.elements-container h5 {
+  font-size: 24px;
+  font-weight: 100;
+}
+.elements-container h6 {
+  font-size: 16px;
+  font-weight: 100;
+}
+.elements-container p,
+.elements-container li,
+.elements-container dt,
+.elements-container dd,
+.elements-container td {
+  line-height: 1.5;
+}
+.elements-container .elements-title {
+  font-size: 45px;
+  font-weight: 100;
+}
+.elements-container .navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.elements-container .elements-wrapper {
+  padding: 0 20%;
+}
+.elements-container .elements-wrapper .table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.elements-container .elements-wrapper .misc-wrapper h2 {
+  margin: 0;
+}/*# sourceMappingURL=elements.css.map */

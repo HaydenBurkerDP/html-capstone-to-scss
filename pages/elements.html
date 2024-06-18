@@ -4,227 +4,290 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/elements.css" />
     <title>Elements - Twenty Twenty-Two</title>
   </head>
   <body>
-    <a href="./index.html">Twenty Twenty-Two</a>
-    <a href="./about.html">About</a>
-    <a href="./parent.html">Parent Page</a>
-    <a href="./sub.html">Subpage Page</a>
-    
-    <p>
-      The purpose of this HTML is to help determine what default settings are
-      with CSS and to make sure that all possible HTML Elements are included in
-      this HTML so as to not miss any possible Elements when designing a site.
-    </p>
-    <hr />
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>HEADING 5</h5>
-    <h6>HEADING 6</h6>
-    <a href="">[top]</a>
-    <hr />
-    <h2>Paragraph</h2>
-    <p>
-      Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim
-      convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
-      Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec,
-      gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum,
-      turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas
-      ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a
-      ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc.
-      Morbi imperdiet augue quis tellus.
-    </p>
+    <div class="elements-container">
+      <div class="navbar-wrapper">
+        <div class="home-link">
+          <a href="./index.html">Twenty Twenty-Two</a>
+        </div>
 
-    <p>
-      Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. Nullam
-      dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
-      suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at,
-      tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus
-      fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-      Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy.
-      Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat
-      in, nunc. Morbi imperdiet augue quis tellus.
-    </p>
-    <a href="">[top]</a>
-    <hr />
+        <div class="links-wrapper">
+          <a href="./about.html">About</a>
+          <a href="./parent.html">Parent Page</a>
+          <a href="./sub.html">Subpage Page</a>
+        </div>
+      </div>
 
-    <h2>List Types</h2>
-    <h3>Definition List</h3>
-    <dl>
-      <dt>Definition List Title</dt>
-      <dd>This is a definition list division.</dd>
-    </dl>
+      <h2 class="elements-title">Elements</h2>
+      <hr />
 
-    <h3>Ordered List</h3>
-    <ol>
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-      <li>List Item 3</li>
-    </ol>
-
-    <h3>Unordered List</h3>
-    <ul>
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-      <li>List Item 3</li>
-    </ul>
-    <a href="">[top]</a>
-    <hr />
-
-    <h2>Forms</h2>
-    <fieldset>
-      <legend>legend</legend>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
-        dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
-        suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at,
-        tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis
-        luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget
-        metus.
-      </p>
-      <form>
-        <h2>Form Element</h2>
+      <div class="elements-wrapper">
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
+          The purpose of this HTML is to help determine what default settings
+          are with CSS and to make sure that all possible HTML Elements are
+          included in this HTML so as to not miss any possible Elements when
+          designing a site.
+        </p>
+        <hr />
+
+        <div class="headers-wrapper">
+          <h1 class="header">Heading 1</h1>
+          <h2 class="header">Heading 2</h2>
+          <h3 class="header">Heading 3</h3>
+          <h4 class="header">Heading 4</h4>
+          <h5 class="header">HEADING 5</h5>
+          <h6 class="header">HEADING 6</h6>
+        </div>
+
+        <a href="">[top]</a>
+        <hr />
+
+        <h2>Paragraph</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam
           dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
-          suscipit dui.
+          suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at,
+          tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis
+          luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget
+          metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla
+          nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo
+          vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
         </p>
-        <p>
-          <label for="textfield">Text Field:</label><br />
-          <input type="text" id="textfield" />
-        </p>
-        <p>
-          <label for="textarea">Text Area:</label><br />
-          <textarea id="textarea"></textarea>
-        </p>
-        <p>
-          <label for="element-selector">Select Element:</label><br />
-          <select name="element-selector">
-            <optgroup label="Option Group 1">
-              <option value="option 1">Option 1</option>
-              <option value="option 2">Option 2</option>
-              <option value="option 3">Option 3</option>
-            </optgroup>
-            <optgroup label="Option Group 2">
-              <option value="option 1">Option 1</option>
-              <option value="option 2">Option 2</option>
-              <option value="option 3">Option 3</option>
-            </optgroup>
-          </select>
-        </p>
-        <p>
-          <label for="radio-buttons">Radio Buttons:</label> <br />
-          <br />
-          <input type="radio" name="radio-buttons" value="radio 1" />
-          <label for="radio-buttons">Radio 1</label>
-          <br />
-          <input type="radio" name="radio-buttons" value="radio 2" />
-          <label for="radio-buttons">Radio 2</label>
-          <br />
-          <input type="radio" name="radio-buttons" value="radio 3" />
-          <label for="radio-buttons">Radio 3</label>
-        </p>
-        <p>
-          <label for="checkboxes">Checkboxes:</label> <br />
-          <br />
-          <input type="checkbox" name="checkbox1" value="radio 1" />
-          <label for="checkbox1">Radio 1</label>
-          <br />
-          <input type="checkbox" name="checkbox2" value="radio 2" />
-          <label for="checkbox2">Radio 2</label>
-          <br />
-          <input type="checkbox" name="checkbox3" value="radio 3" />
-          <label for="checkbox3">Radio 3</label>
-        </p>
-        <p>
-          <label for="password">Password:</label> <br />
-          <br />
-          <input type="password" id="password" />
-        </p>
-        <p>
-          <label for="myfile">Select files:</label>
-          <input type="file" id="myfile" name="myfile" multiple /><br /><br />
-          <button type="clear">Clear</button>
-          <button type="submit">Submit</button>
-        </p>
-      </form>
-    </fieldset>
-    <a href="">[top]</a>
-    <hr />
-    <h2>Tables</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Table Header 1</th>
-          <th>Table Header 2</th>
-          <th>Table Header 3</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Division 1</td>
-          <td>Division 2</td>
-          <td>Division 3</td>
-        </tr>
-        <tr>
-          <td>Division 1</td>
-          <td>Division 2</td>
-          <td>Division 3</td>
-        </tr>
-        <tr>
-          <td>Division 1</td>
-          <td>Division 2</td>
-          <td>Division 3</td>
-        </tr>
-      </tbody>
-    </table>
 
-    <a href="">[top]</a>
-    <hr />
+        <p>
+          Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit.
+          Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
+          iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet
+          at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis
+          luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget
+          metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla
+          nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo
+          vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+        </p>
+        <a href="">[top]</a>
+        <hr />
 
-    <h2>Misc Stuff - abbr, acronym,</h2>
-    <h2>pre, code, sub, sup, etc.</h2>
+        <h2>List Types</h2>
+        <h3>Definition List</h3>
+        <dl>
+          <dt>Definition List Title</dt>
+          <dd>This is a definition list division.</dd>
+        </dl>
 
-    <p>
-      Lorem
-      <sup>superscript</sup>
-      dolor
-      <sub>subscript</sub>
-      amet, consectetuer adipiscing elit. Nullam dignissim convallis est.
-      Quisque aliquam. cite. Nunc iaculis suscipit dui. Nam sit amet sem.
-      Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
-      Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu
-      volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus
-      eget sapien fringilla nonummy. NBA Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat
-      in, nunc. Morbi imperdiet augue quis tellus.
-      <abbr>AVE</abbr>
-    </p>
-    <code>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim
-      convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
-      Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec,
-      gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum,
-      turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas
-      ornare tortor. Donec sed tellus eget sapien fringilla nonummy. NBA Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in,
-      nunc. Morbi imperdiet augue quis tellus.
-      <abbr>AVE</abbr>
-    </p>
-    <p>“This stylesheet is going to help so freaking much.”</p>
-    <p>-Blockquote</p>
-    <a href="">[top]</a>
-    <br />
+        <h3>Ordered List</h3>
+        <ol>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ol>
 
-    <span>September 5, 2008</span>
-    <span>Theme Admin</span>
-    <a href="https://wp-themes.com/twentytwentytwo/?cat=1">Uncategorized</a>
-    <hr />
-    <a href="./index.html">Twenty Twenty-Two</a>
-    <span>
-      Proudly powered by
-      <a href="https://wordpress.org/" target="_blank">Wordpress</a>
-    </span>
+        <h3>Unordered List</h3>
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ul>
+        <a href="">[top]</a>
+        <hr />
+
+        <h2>Forms</h2>
+        <fieldset>
+          <legend>Legend</legend>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
+            dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
+            iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi,
+            imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent
+            mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu
+            volutpat enim diam eget metus.
+          </p>
+
+          <form>
+            <h2>Form Element</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
+              dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
+              iaculis suscipit dui.
+            </p>
+
+            <p>
+              <label for="textfield">Text Field:</label><br />
+              <input type="text" id="textfield" />
+            </p>
+
+            <p>
+              <label for="textarea">Text Area:</label><br />
+              <textarea id="textarea"></textarea>
+            </p>
+
+            <p>
+              <label for="element-selector">Select Element:</label><br />
+
+              <select name="element-selector">
+                <optgroup label="Option Group 1">
+                  <option value="option 1">Option 1</option>
+                  <option value="option 2">Option 2</option>
+                  <option value="option 3">Option 3</option>
+                </optgroup>
+
+                <optgroup label="Option Group 2">
+                  <option value="option 1">Option 1</option>
+                  <option value="option 2">Option 2</option>
+                  <option value="option 3">Option 3</option>
+                </optgroup>
+              </select>
+            </p>
+
+            <p>
+              <label for="radio-buttons">Radio Buttons:</label> <br />
+              <br />
+
+              <input type="radio" name="radio-buttons" value="radio 1" />
+              <label for="radio-buttons">Radio 1</label>
+
+              <br />
+
+              <input type="radio" name="radio-buttons" value="radio 2" />
+              <label for="radio-buttons">Radio 2</label>
+
+              <br />
+
+              <input type="radio" name="radio-buttons" value="radio 3" />
+              <label for="radio-buttons">Radio 3</label>
+            </p>
+
+            <p>
+              <label for="checkboxes">Checkboxes:</label> <br />
+
+              <br />
+
+              <input type="checkbox" name="checkbox1" value="radio 1" />
+              <label for="checkbox1">Radio 1</label>
+
+              <br />
+
+              <input type="checkbox" name="checkbox2" value="radio 2" />
+              <label for="checkbox2">Radio 2</label>
+
+              <br />
+
+              <input type="checkbox" name="checkbox3" value="radio 3" />
+              <label for="checkbox3">Radio 3</label>
+            </p>
+
+            <p>
+              <label for="password">Password:</label> <br />
+              <br />
+              <input type="password" id="password" />
+            </p>
+
+            <p>
+              <label for="myfile">Select files:</label>
+              <input
+                type="file"
+                id="myfile"
+                name="myfile"
+                multiple
+              /><br /><br />
+
+              <button type="clear">Clear</button>
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+        </fieldset>
+
+        <a href="">[top]</a>
+
+        <hr />
+
+        <h2>Tables</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Table Header 1</th>
+                <th>Table Header 2</th>
+                <th>Table Header 3</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Division 1</td>
+                <td>Division 2</td>
+                <td>Division 3</td>
+              </tr>
+
+              <tr>
+                <td>Division 1</td>
+                <td>Division 2</td>
+                <td>Division 3</td>
+              </tr>
+
+              <tr>
+                <td>Division 1</td>
+                <td>Division 2</td>
+                <td>Division 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <a href="">[top]</a>
+        <hr />
+
+        <div class="misc-wrapper">
+          <h2>Misc Stuff - abbr, acronym,</h2>
+          <h2>pre, code, sub, sup, etc.</h2>
+
+          <p>
+            Lorem
+            <sup>superscript</sup>
+            dolor
+            <sub>subscript</sub>
+            amet, consectetuer adipiscing elit. Nullam dignissim convallis est.
+            Quisque aliquam. cite. Nunc iaculis suscipit dui. Nam sit amet sem.
+            Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula,
+            nisl. Praesent mattis, massa quis luctus fermentum, turpis mi
+            volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare
+            tortor. Donec sed tellus eget sapien fringilla nonummy. NBA Mauris a
+            ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in,
+            nunc. Morbi imperdiet augue quis tellus.
+            <abbr>AVE</abbr>
+          </p>
+
+          <pre>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus.
+            Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+            Praesent mattis, massa quis luctus fermentum,
+            turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas
+            ornare tortor. Donec sed tellus eget sapien fringilla nonummy. NBA Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in,
+            nunc. Morbi imperdiet augue quis tellus.
+            <abbr>AVE</abbr>
+          </pre>
+
+          <p>“This stylesheet is going to help so freaking much.”</p>
+          <p>-Blockquote</p>
+          <a href="">[top]</a>
+        </div>
+
+        <br />
+
+        <span>September 5, 2008</span>
+        <span>Theme Admin</span>
+        <a href="https://wp-themes.com/twentytwentytwo/?cat=1">Uncategorized</a>
+        <hr />
+        <a href="./index.html">Twenty Twenty-Two</a>
+        <span>
+          Proudly powered by
+          <a href="https://wordpress.org/" target="_blank">Wordpress</a>
+        </span>
+      </div>
+    </div>
   </body>
 </html>

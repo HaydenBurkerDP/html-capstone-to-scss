@@ -1,0 +1,71 @@
+.elements-container {
+  font-family: system-ui;
+  padding: 100px 20%;
+
+  a {
+    color: black;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: 100;
+  }
+
+  h2 {
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 100;
+  }
+
+  h4 {
+    font-size: 32px;
+    font-weight: 100;
+  }
+
+  h5 {
+    font-size: 24px;
+    font-weight: 100;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  p,
+  li,
+  dt,
+  dd,
+  td {
+    line-height: 1.5;
+  }
+
+  .elements-title {
+    font-size: 45px;
+    font-weight: 100;
+  }
+
+  .navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .elements-wrapper {
+    padding: 0 20%;
+
+    .table-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .misc-wrapper {
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+}
